@@ -66,7 +66,7 @@ hashtag_created_at is timestamp
 
 post_hashtag is a junctionr relation that relates the posts to the hashtags.
 
-The primary key is post_id. 
+The primary key is post_id and hashtag id as composite.
 It has attributes post_id and hashtag_id 
 the domain for both attributes is BigInt.
 
