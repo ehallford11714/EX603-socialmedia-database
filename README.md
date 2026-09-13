@@ -3,3 +3,17 @@ Social Media Database Project
 
 
 The following project is for BU Course EX603, building a relational model for a social media backend in Postgres.
+
+# Domain - Social Media 
+
+# Schema 
+
+# Query Catalogue 
+
+# Technical Highlights 
+
+# What I would do differently 
+
+# Video Presentation
+
+# How To Run IT 
