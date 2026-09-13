@@ -7,7 +7,7 @@ The following project is for BU Course EX603, building a relational model for a 
 # Domain - Social Media 
 The following domain is social media to track the following five roles: users, posts, likes, hashtags and post_hashtags
 # Schema 
-![alt text](<ERD.png>)
+![alt text](<erd.png>)
 # Query Catalogue 
 
 # Technical Highlights 
