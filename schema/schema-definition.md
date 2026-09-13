@@ -6,7 +6,7 @@ A user can create an account with a user name and update their username at some 
 and those posts can be liked by other users.The user can use hashtags in their posts and the dwell time of a user is tracked on each post. 
 
 
-#Users
+# Users
 users schema has the following attributes:
 user_id 
 user_name
@@ -19,7 +19,7 @@ var for user_name
 timestamp for created_at 
 timestamp for updated_at 
 
-#Posts 
+# Posts 
 Posts schema has the following attributes: 
 post_id 
 post_text 
@@ -33,7 +33,7 @@ varchar for post_text
 timestamp for post_created_at
 timestamp for post_updated_at 
 
-#Likes 
+# Likes 
 the relation likes has the following attributes to represent how often a post is liked. 
 like_id
 post_id
@@ -48,7 +48,7 @@ BigInt for post_id
 BigInt for user_id
 timestamp for created_at
 
-#hash_tag 
+# hash_tag 
 The following attribues were created for the hash_tag relation 
 
 hashtag_id 
@@ -62,7 +62,7 @@ hastag_id is BigInt
 hashtag_text is varchar 
 hashtag_created_at is timestamp 
 
-#post_hashtag 
+# post_hashtag 
 
 post_hashtag is a junctionr relation that relates the posts to the hashtags.
 
@@ -71,7 +71,7 @@ It has attributes post_id and hashtag_id
 the domain for both attributes is BigInt.
 
 
-#dwell 
+# dwell 
 Dwell is the relation to capture how long a user stays on a post. 
 The attributes are the 
 dwell_id
