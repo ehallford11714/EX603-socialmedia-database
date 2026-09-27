@@ -14,6 +14,8 @@ The general schema for the social media relational model is described below:
 
 # Schema 
 ![alt text](erd.png)
+
+It was updated on 9/27/2026 to reflect sessions table addition when modeling dwell time for multiple different sessions a user might come back to a post. 
 # Query Catalogue 
 
 # Technical Highlights 
