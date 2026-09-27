@@ -29,7 +29,7 @@ The following check constraints exist.
 | Table | Check Constraint | Reason 
 |---|---|---|
 |Users | username <> '' | username should not be an empty string| 
-| Posts | length(btrim(post_text) > 0) | posts should be empty strings |
+| Posts | length(btrim(post_text) > 0) | posts should not be empty strings. |
 | Hashtag | hashtag_text <> '' | hashtags should not be empty strings. 
 | DWELL | dwell_ms > 0 | a person must have dwelled on a post for more than 0 ms 
 
