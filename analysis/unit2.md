@@ -20,7 +20,7 @@ Some of the schema was also changed wuth delete behavior. We set constraints tha
 | `POST_HASHTAG.post_id` references `POSTS.post_id` | `CASCADE` | Deleting a post should remove any hashtag associations with it. |
 | `POST_HASHTAG.hashtag_id` references `HASHTAGS.hashtag_id` | `CASCADE` | Deleting a hashtag should remove its hashtag while keeping the posts |
 
-When a user deletes their account the posts that they created should still be visible on the platform. However, when htey deleete their session, all of their details about the dwell time should also be removed. Likewise, with posts all of its likes should be removed. All of its posts dwell time shoul dalso be removed. The post deletion should also trigger any hashtag associations with it. If we didn't remove these child interactions, we would have orphaned records of likes that have no posts, dwell time that have no sessions and hashtag assocations that have no hashtags. 
+When a user deletes their account the posts that they created should still be visible on the platform. However, when they delete their session, all of their details about the dwell time should also be removed. Likewise, with posts all of its likes should be removed. All of its posts dwell time shoul dalso be removed. The post deletion should also trigger any hashtag associations with it. If we didn't remove these child interactions, we would have orphaned records of likes that have no posts, dwell time that have no sessions and hashtag assocations that have no hashtags. 
 
 # Check Constraints 
 
