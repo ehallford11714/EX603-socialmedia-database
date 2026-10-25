@@ -17,7 +17,7 @@ The general schema for the social media relational model is described below:
 
 It was updated on 9/27/2026 to reflect sessions table addition when modeling dwell time for multiple different sessions a user might come back to a post. 
 # Query Catalogue 
-We have built query catolog for assignment 4 to model the aggregation of sample social media database with our findigns on 10/25/2026.
+We have built query catolog for assignment 4 to model the aggregation of sample social media database with our findings on 10/25/2026.
 # Technical Highlights 
 
 # What I would do differently 
