@@ -22,9 +22,14 @@ We have built query catolog for assignment 4 to model the aggregation of sample 
 The specific queries answered how failures such as post removals affect aggregations. Therefore, its important to have system in place to monitor aggregations overall as well by specific cohorts. 
 
 # Technical Highlights 
+The technical highlights is that over time the system is evaluating how posts are being removed and tracked with dwell time metrics. These include that the system is overall improving but not in Q4 in relation to removal reason. In addition, we can use window partitions in order to evalaute comparison of rows together and build more complex workflows. 
 
 # What I would do differently 
-
+I would build more comphrensive joins to handle the data analysis, as well as build more comprehensive framework to understand why dwell time and removal rate is happening and link it together.   
 # Video Presentation
 
+https://youtu.be/fSEqoeu4cbk - Video Presentation 
+
 # How To Run IT 
+
+The person can use the schema to load the database and then they can run the queries in ach of the queries path to learn about the system and how it is behaving. 
